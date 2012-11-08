@@ -1,0 +1,28 @@
+<div id="portal-navigation"
+     tal:define="depth python:1; elements view/elements"
+     tal:condition="elements"
+     i18n:domain="plone">
+  <h5 class="hiddenStructure" i18n:translate="heading_sections">Sections</h5>
+
+  <metal:level metal:define-macro="level">
+    <ul tal:attributes="class string:nav-level-${depth}">
+      <li tal:repeat="element elements"
+          tal:attributes="id string:portaltab-${element/id};
+                          class string:nav-entry-${depth} ${element/css_class}">
+        <a href=""
+           tal:attributes="href element/url;
+                           title element/description | nothing;">
+          <span tal:content="element/title">
+            Tab Name
+          </span>
+        </a>
+        <tal:level
+           tal:define="depth python:depth + 1;
+                       elements element/elements"
+           tal:condition="elements">
+          <metal:level_up metal:use-macro="template/macros/level" />
+        </tal:level>
+      </li>
+    </ul>
+  </metal:level>
+</div>

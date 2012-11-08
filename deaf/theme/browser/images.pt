@@ -1,0 +1,11 @@
+<div>
+  <a href="#" target="#" title="#"
+     tal:attributes="href view/link;
+                     target view/link_target;
+                     title view/link_title"
+     tal:omit-tag="not: view/link">
+    <img src="#" alt="#"
+         tal:attributes="src view/image;
+                         alt view/image_alt" />
+  </a>
+</div>

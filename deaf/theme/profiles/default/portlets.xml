@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<portlets>
+    <portlet
+       addview="deaf.image"
+       title="Deaf image portlet"
+       description="Portlet displaying an image and a link"
+       />
+</portlets>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<object name="portal_javascripts">
+ <javascript
+    id="++resource++deaf.theme.javascripts/html5.js"
+    cacheable="False" compression="safe" cookable="False"
+    enabled="True" expression=""  conditionalcomment="lt IE 9" inline="False" />
+ <javascript
+    id="++resource++deaf.theme.javascripts/navigation.js"
+    cacheable="True" compression="safe" cookable="true"
+    enabled="True" expression=""  conditionalcomment="" inline="False" />
+</object>

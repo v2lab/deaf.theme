@@ -1,0 +1,9 @@
+<tal:portlet>
+  <div id="portal-colophon" metal:define-macro="portal_colophon"
+       i18n:domain="plone" tal:define="portal_url container/portal_url">
+      <span class="copyright"><a>&copy; 2012-2016 DEAF</a></span>
+      <span><a href="" tal:attributes="href string:${portal_url}/contact-deaf">contact</a></span>
+      <span><a href="" tal:attributes="href string:${portal_url}/disclaimer">disclaimer</a></span>
+      <span><a href="" tal:attributes="href string:${portal_url}/colophon">colophon</a></span>
+  </div>
+</tal:portlet>

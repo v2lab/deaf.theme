@@ -1,0 +1,88 @@
+<configure
+   xmlns="http://namespaces.zope.org/zope"
+   xmlns:browser="http://namespaces.zope.org/browser"
+   xmlns:plone="http://namespaces.plone.org/plone"
+   i18n_domain="deaf.theme">
+
+  <adapter
+      name="imagesportlet"
+      factory=".traversers.ImagesPortletTraverser"
+      />
+
+  <!-- 'Deaf theme' Zope 3 browser layer
+       Register views, viewlets and resources for this layer to make sure
+       they only apply to the 'Deaf theme' theme.
+       You can also use this layer to override default Plone browser views
+       and viewlets only within the 'Deaf theme' theme.
+    -->
+  <interface
+     interface=".interfaces.IThemeSpecific"
+     type="zope.publisher.interfaces.browser.IBrowserSkinType"
+     name="Deaf theme"
+     />
+
+  <browser:viewlet
+     name="plone.site_actions"
+     manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+     class="plone.app.layout.viewlets.common.SiteActionsViewlet"
+     layer=".interfaces.IThemeSpecific"
+     permission="zope2.View"
+     />
+
+  <browser:viewlet
+     name="plone.global_sections"
+     manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+     class=".navigation.DEAFGlobalSectionViewlet"
+     layer=".interfaces.IThemeSpecific"
+     permission="zope2.View"
+     />
+
+  <browser:viewlet
+     name="deaf.theme.footer"
+     manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+     template="templates/footer.pt"
+     layer=".interfaces.IThemeSpecific"
+     permission="zope2.View"
+     />
+
+  <browser:viewlet
+    name="deaf.theme.colophon"
+    manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+    template="templates/colophon.pt"
+    for="*"
+    layer=".interfaces.IThemeSpecific"
+    permission="zope2.View"
+    />
+
+  <!-- Resources -->
+
+  <browser:resourceDirectory
+     name="deaf.theme.images"
+     directory="images"
+     layer=".interfaces.IThemeSpecific"
+     />
+  <browser:resourceDirectory
+     name="deaf.theme.stylesheets"
+     directory="stylesheets"
+     layer=".interfaces.IThemeSpecific"
+     />
+
+  <browser:resourceDirectory
+     name="deaf.theme.javascripts"
+     directory="javascripts"
+     layer=".interfaces.IThemeSpecific"
+     />
+
+  <!-- Portlets -->
+
+  <plone:portlet
+      name="deaf.image"
+      interface=".portlets.IImagePortlet"
+      assignment=".portlets.ImagePortlet"
+      renderer=".portlets.ImagePortletRenderer"
+      addview=".portlets.ImagePortletAddForm"
+      editview=".portlets.ImagePortletEditForm"
+      />
+
+
+</configure>

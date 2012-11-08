@@ -1,0 +1,1124 @@
+@font-face {
+  font-family: "Stratum Medium";
+  src: url("++resource++deaf.theme.stylesheets/Stratum2WebMedium.eot");
+  src: local("☺"),
+    url("++resource++deaf.theme.stylesheets/Stratum2WebMedium.woff") format("woff"),
+    url("++resource++deaf.theme.stylesheets/Stratum2-Medium.otf") format("opentype");
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: #FFF;
+  margin: 0 auto;
+  font-family: verdana;
+  font-weight: normal;
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 18px;
+  padding-top: 0;
+  height: 100%;
+  color: #808080; /* override grid css coloring */
+}
+
+h1 {
+  font-size: 21px;
+  color: #808080;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+  font-family: "Stratum Medium", Arial;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+h2 {
+  font-size: 21px;
+  color: #001D3C;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+  font-family: "Stratum Medium", Arial;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+h2.pink {
+  color: #E40079;
+  margin-bottom: 18px;
+}
+
+h2.gray {
+  color: #808080;
+  padding-bottom: 25px;
+}
+
+h1, h2 { letter-spacing: none;}
+
+h3 {
+  font-size: 17px;
+  color: #001e3d;/* dark blue */
+  text-transform: uppercase;
+  font-family:  "Stratum Medium", Arial;
+  margin-top: 18px;
+  font-weight: normal;
+  line-height: 18px;
+}
+
+h3.pink {
+  color: #E40079;/* pink */
+}
+
+#content h4, #content h4 a, #content h4 a:visited, #content h4 a:link {
+  font-size: 13px;
+  color: #001e3d;/* dark blue */
+  font-family: verdana;
+  margin-bottom: 13px;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+ #content h4 a, #content h4 a:visited, #content h4 a:link, #content h4 a:hover,
+ #content h4 a:visited:hover, #content h4 a:link:hover {
+  border-bottom: none !important;
+}
+
+h5 {
+  font-size: 11px;
+  color: #353835;/* dark gray */
+  color: #808080;/* light gray */
+  font-weight: normal;
+  line-height: 18px;
+  margin-bottom: 18px;
+}
+
+dt {
+  font-size: 15px;
+  color: #E40079;/* pink */
+  text-transform: uppercase;
+  font-family:  "Stratum Medium", Arial;
+  font-weight: normal;
+}
+
+/* item page */
+
+.item p {
+  font-size: 13px;
+}
+
+/* link styling */
+
+p a, p a:link, p a:visited,
+#content a, #content a:link, #content a:visited {
+  text-decoration: none;
+  border-bottom: 1px solid #fdee23 !important;
+  color: #808080;
+}
+
+p a:hover, p a:link:hover, p a:visited:hover,
+#content a:hover, #content a:link:hover, #content a:visited:hover {
+  border-bottom: 1px solid #E40079 !important;
+  color: #808080 !important;
+}
+
+/* read more links */
+
+p.news-item-more a {
+  text-transform: lowercase;
+}
+
+#portal-breadcrumbs a, #portal-breadcrumbs a:visited {
+  color: #000;
+}
+
+/* logo */
+
+#portal-logo {
+  border: none;
+  margin: 65px 0 0 0;
+}
+
+a#portal-logo, a:visited#portal-logo {
+  border: none;
+}
+
+/* site actions */
+
+#portal-siteactions {
+  font-family: verdana;
+  font-weight: normal;
+  font-size: 10px;
+  position: absolute;
+  left: 185px;
+  top: 0;
+  width: 697px;
+  background: #eee;
+  text-align: left;
+  padding: 0.5em;
+  text-transform: lowercase;
+  color: #999;
+}
+
+#portal-siteactions a {
+  color: #999;
+}
+
+#portal-siteactions li {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+#portal-siteactions li a:hover {
+  color: #001e3d;
+}
+
+/* breadcrumb */
+
+.template-homepage_view #portal-breadcrumbs {
+  display: none;
+}
+
+#portal-breadcrumbs {
+  padding-top: 15px;
+  padding-left: 15px;
+  background: url("++resource++deaf.theme.images/page-divider-1-column-gray-wide.png") no-repeat bottom left;
+  width: 100%;
+  position: absolute;
+  left: -2px;
+  height: 30px;
+}
+
+#breadcrumbs-you-are-here {
+  display: none;
+}
+
+/* layout */
+
+#portal-top {
+  background: url("++resource++deaf.theme.images/background-the-power.png") no-repeat center 68px;
+}
+
+#portal-header {
+  margin-bottom: 25px;
+}
+
+#portal-column-one {
+  width: 160px;
+}
+
+#portal-columns {
+  background: url("++resource++deaf.theme.images/page-divider-2-column-yellow.png") no-repeat 9px top;
+}
+
+.template-homepage_view #portal-columns {
+  background: url("++resource++deaf.theme.images/page-divider-3-column-yellow.png") no-repeat 9px top;
+}
+
+#portal-column-content {
+  width: 712px;
+}
+
+#portal-column-two {
+  width: 160px;
+  margin-left: -18.37%;
+  margin-top: 35px;
+}
+
+#content {
+  margin: 65px 0 48px 0;
+  font-size: 100%;
+}
+
+#content p {
+  line-height: 18px;
+}
+
+.template-homepage_view #content {
+  margin: 35px 0 0 0;
+}
+
+
+/* global nav */
+
+#portal-navigation {
+  background: none;
+  left: 185px;
+  top: 65px;
+  position: absolute;
+  color: #818181;
+  font-family: "Stratum Medium", Arial;
+  font-weight: normal;
+  font-size: 21px;
+  min-width: 710px;
+}
+
+#portal-navigation .nav-level-1 {
+  position: relative;
+  margin: 0 0 1em;
+}
+
+#portal-navigation .nav-level-2 {
+  position: absolute;
+  display: none;
+  padding: 5px;
+  margin-top: 3px;
+  border-top: 1px solid #ff268f;
+  /*background: url("++resource++deaf.theme.images/knot-pink.png") no-repeat -1px -5px;*/
+  z-index: 9000;
+}
+
+#portal-navigation li {
+  padding: 1em 1em 0 0;
+  float: left;
+}
+
+#portal-header #portal-navigation .nav-level-2 li {
+  background: url("++resource++deaf.theme.images/DropdownBG.png") no-repeat top left;
+  width: 90px;
+  height: 90px;
+  float: left;
+  padding: 0;
+  text-align: center;
+  margin-right: 2px;
+}
+
+#portal-header #portal-navigation .nav-level-2 li a {
+  padding: 0;
+  width: 90px;
+  height: 90px;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFD749;
+}
+
+#portal-header #portal-navigation .nav-level-2 li a:hover {
+  color: #001e3d;
+}
+
+portal-header #portal-navigation .nav-level-2 li#portaltab-festival-nieuws a {
+  background: url("++resource++deaf.theme.images/IconFestivalNews.png") no-repeat center 40px;
+}
+
+portal-header #portal-navigation .nav-level-2 li#portaltab-main-nieuws a {
+  background: url("++resource++deaf.theme.images/IconMainNews.png") no-repeat center 40px;
+}
+
+#portal-header #portal-navigation .nav-level-2 li#portaltab-events a {
+  background: url("++resource++deaf.theme.images/IconTimetable.png") no-repeat center 40px;
+}
+
+#portal-header #portal-navigation .nav-level-2 li#portaltab-timetable a,
+#portal-header #portal-navigation .nav-level-2 li#portaltab-modules a {
+  background: url("++resource++deaf.theme.images/IconTimetable.png") no-repeat center 40px;
+}
+
+#portal-header #portal-navigation .nav-level-2 li#portaltab-artists-speakers a {
+  background: url("++resource++deaf.theme.images/IconArtists.png") no-repeat center 40px;
+margin-top: 4px;
+}
+
+#portal-header #portal-navigation .nav-level-2 li#portaltab-locations a,
+#portal-header #portal-navigation .nav-level-2 li#portaltab-venues a {
+  background: url("++resource++deaf.theme.images/IconLocations.png") no-repeat center 40px;
+}
+
+#portal-header #portal-navigation .nav-level-2 li#portaltab-transport a {
+  background: url("++resource++deaf.theme.images/IconTransport.png") no-repeat center 40px;
+}
+
+#portal-header #portal-navigation .nav-level-2 li#portaltab-places-to-go a {
+  background: url("++resource++deaf.theme.images/IconPlacestogo.png") no-repeat center 40px;
+}
+
+#portal-header #portal-navigation .nav-level-2 li#portaltab-hotels a {
+  background: url("++resource++deaf.theme.images/IconHotels.png") no-repeat center 40px;
+}
+
+#portal-header #portal-navigation .nav-level-2 li#portaltab-about a {
+  background: url("++resource++deaf.theme.images/IconAbout.png") no-repeat center 40px;
+}
+
+#portal-navigation li a,
+#portal-navigation li a:link,
+#portal-navigation li a:visited {
+  padding: 10px 10px;
+  border: none;
+  text-transform: uppercase;
+  color: #808080;
+  min-width: 1em;
+}
+
+#portal-navigation li.nav-entry-1 > a {
+  background: url("++resource++deaf.theme.images/divider-navigation-gray.png") repeat-x left 31px;
+  z-index: 10000;
+}
+
+#portal-navigation li.selected a,
+#portal-navigation li a:hover,
+#portal-navigation li.selected a:hover {
+  color: #011e3c;
+}
+
+/* list styling */
+
+#content ul {
+  margin-left: 0;
+  font-size: 11px;
+  list-style: none;
+}
+
+#content ul li {
+  padding-left: 12px;
+  background: url("++resource++deaf.theme.images/bullet.png") no-repeat 0 0.65em;
+}
+
+#content dd {
+    margin: 0 0 1em 1em;
+}
+
+/* page content */
+
+div.page-container {
+  position: relative;
+  min-height: 1%;
+}
+
+div.page-content {
+  float: right;
+  width: 460px;
+  min-height: 250px;
+  margin-right: 68px;
+  font-size: 13px;
+}
+
+/* event and news details */
+
+.category, .posted {
+  font-size: 21px;
+  font-family: "Stratum Medium", Arial;
+  color: #808080;
+}
+
+.event-details .title {
+  font-weight:bold;
+  font-size: 10px;
+  font-family: Arial;
+}
+
+.date, .time, .location {
+  font-size: 10px;
+  font-family: verdana;
+}
+
+/* timetable event overview */
+
+.template-event_folder_view div.events-index {
+  padding-left: 185px;
+  padding-bottom: 10px;
+  background: url("++resource++deaf.theme.images/page-divider-1-column-gray-wide.png") no-repeat left bottom;
+  margin-bottom: 10px;
+}
+
+.template-event_folder_view h2 {
+  font-size: 21px;
+  color: #808080;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-family: "Stratum Medium", Arial;
+  font-weight: normal;
+  padding-bottom: 0;
+  line-height: 24px;
+}
+
+.template-event_folder_view .event-thumbnail h4 {
+  float: left;
+  width: 450px;
+  font-size: 11px;
+}
+
+.template-event_folder_view div.event-thumbnail {
+  clear: both;
+  border-bottom: 4px solid #EDEDED;
+  height: 30px;
+  padding-top: 10px;
+}
+
+.template-event_folder_view .event-thumbnail span {
+  float: left;
+}
+
+#content div.events-filter.page-tabs {
+  width: 95%;
+  margin-right: 15px;
+  margin-bottom: 40px;
+}
+
+/* event view */
+
+.template-event_view .event-content h2 {
+  font-size: 21px;
+  color: #001D3C;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  font-family: "Stratum Medium", Arial;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+.template-event_view figure img {
+  width: 100%;
+}
+
+.template-event_folder_view figure a, .template-event_folder2_view figure a{
+  opacity: 0.85;
+}
+
+.template-event_folder_view figure a:hover, .template-event_folder2_view figure a:hover{
+  opacity: 1;
+}
+
+/* news container */
+
+.news-container {
+  width: 345px;
+  float: left;
+  margin-bottom: 75px;
+}
+
+div.batch-wrapper {
+  height: 18px;
+}
+
+.first-container {
+  margin-right: 20px;
+}
+
+.news-container h2, .medium-thumbnail{
+  background: url("++resource++deaf.theme.images/page-divider-1-column-gray.png") no-repeat bottom left;
+  padding-bottom: 1px;
+}
+
+.news-container h2 {
+  color: #808080;
+  font-size: 21px;
+  padding-bottom: 10px;
+  margin-bottom: 8px;
+}
+
+/* XXX temp remove guest header until guest content exist */
+.news-container.second-container h2 {
+  color: #fff;
+}
+
+.news-container.second-container .medium-thumbnail-heading,
+.news-container.second-container .category,
+.news-container.second-container .posted {
+  color: #fff;
+}
+
+.news-container h3 {
+  font-size: 14px;
+  color: #001e3a;
+}
+
+div.news-container .medium-thumbnail {
+  margin-top: 10px;
+  width: 320px;
+}
+
+.template-news_composed_folder_view #portal-breadcrumbs {
+  display: none;
+}
+
+/* news item content */
+
+p.page-description {
+  margin-top: 50px;
+}
+
+p.news-item-description {
+  margin-top: 60px;
+}
+
+.section-news #content {
+  margin-top: 60px;
+}
+
+.news-item-content h2 {
+  color: #001e3a;
+  height: 48px;
+}
+
+.news-item-content p.news-item-description {
+  margin-top: 0;
+}
+
+.template-news_composed_folder_view .medium-thumbnail-heading .category,
+.template-news_composed_folder_view .medium-thumbnail-heading .posted {
+  text-transform: lowercase;
+  font-size: 11px;
+  font-family: verdana;
+}
+
+.template-news_composed_folder_view #content h4 {
+  font-size: 15px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.template-news_composed_folder_view p.news-item-more {
+  margin-top: 3px;
+}
+
+#content a#ticket-trigger, #content a#ticket-trigger:link,
+#content a#ticket-trigger:visited, #content a#ticket-trigger:hover {
+  background: #F2F2F2 url("++resource++deaf.theme.images/ticket-button.png") no-repeat left top;
+  padding: 10px;
+  text-transform: uppercase;
+  font-family: "Stratum Medium", Arial;
+  color: #E40079;/* pink */
+  border: none;
+  width: 95px;
+  height: 20px;
+  display: block;
+  border: none !important;
+}
+
+div.news-item-details, div.event-details, div.person-details {
+  font-family: "Stratum Medium", Arial;
+  color: #808080;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+
+div.news-item-details {
+  background: #f2f2f2;
+}
+
+div.news-item-details {
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.news-item-image {
+  margin-top: 14px;/* +10px from readmore */
+  margin-bottom: 28px;
+}
+
+/* --- homepage has different border/divider styling --- */
+
+.template-homepage_view .medium-thumbnail{
+  background: none;
+}
+
+/* homepage styling */
+
+.homepage-column {
+  width: 345px;
+  float: left;
+}
+
+.homepage-column.two {
+  width: 365px;
+}
+
+div.homepage-news {
+  background: url("++resource++deaf.theme.images/page-divider-1-column-gray-wide.png") no-repeat scroll left top transparent;
+}
+
+div.homepage-news h2 {
+  padding-top: 15px;
+  margin-bottom: 0;
+}
+
+.homepage-info, .homepage-news {
+  margin-left: 25px;
+  margin-top: -5px;
+}
+
+.homepage-news .mini-thumbnail {
+  padding-left: 20px;
+}
+
+.homepage-news .mini-thumbnail h3 {
+  font-size: 15px;
+  font-family: verdana;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+}
+
+.homepage-news .mini-thumbnail .category, .homepage-news .mini-thumbnail .posted {
+  font-family: verdana;
+  font-size: 11px;
+  text-transform: lowercase;
+}
+
+.homepage-news .mini-thumbnail .category {
+  margin-left: -20px;
+}
+
+.homepage-about {
+  clear: left;
+  background: url("++resource++deaf.theme.images/page-divider-1-column-gray.png") no-repeat left top;
+  margin-top: 35px;
+  padding-top: 10px;
+}
+
+.homepage-about h2 {
+  font-size: 13px;
+  font-family: verdana;
+  font-weight: normal;
+  margin-bottom: 18px;
+}
+
+.homepage-about p {
+  padding-right: 50px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/* --- highlight styling --- */
+
+.homepage-info p {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/* next prev navigation */
+
+div.page-actions {
+  position: absolute;
+  width: 160px;
+  height: 100%;
+  min-height: 100%;
+  float: left;
+  background-color: #F2F2F2;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+div.extra-actions {
+  background: url("++resource++deaf.theme.images/background-extra-rounded-corners.gif") no-repeat top left;
+  margin-top: 5px;
+  padding: 10px 8px;
+  width: 150px;
+  height: 100%;
+  min-height: 100%;
+}
+
+.next-previous-links {
+  height: 70px;
+  background: #fff url("++resource++deaf.theme.images/page-divider-1-column-gray-small.png") no-repeat bottom left;
+  margin-bottom: -5px;
+  text-transform: lowercase;
+}
+
+a.prev span {
+  background: url("++resource++deaf.theme.images/arrow-previous.png") no-repeat bottom left;
+  padding-bottom: 30px;
+  width: 30px;
+  display: block;
+  float: left;
+  width: 30px;
+}
+
+a.next span {
+  background: url("++resource++deaf.theme.images/arrow-next.png") no-repeat bottom left;
+  padding-bottom: 30px;
+  display: block;
+  float: left;
+  margin-left: 5px;
+  width: 30px;
+}
+
+/* share bar */
+
+div.ticket-link, div.share-link {
+  background: #F2F2F2;
+  margin-left: -3px;
+}
+
+.share-link span.sharethis {
+    color: #808080;
+}
+
+.stButton {
+  margin-left: 0;
+}
+
+div.share-link {
+  padding: 10px 10px 10px 0;
+  text-transform: uppercase;
+  font-family: "Stratum Medium", Arial;
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+/* footer */
+
+div.row {
+  width: 916px;
+}
+
+#portal-colophon {
+  text-align: left;
+  background: url("++resource++deaf.theme.images/page-divider-full-width.png") no-repeat 10px top;
+  padding-top: 10px;
+  padding-left: 2px;
+  font-family: verdana;
+  font-weight: normal;
+  font-size: 11px;
+}
+
+#portal-colophon span {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#portal-colophon span.copyright {
+  padding-left: 7px;
+}
+
+#portal-colophon a, #portal-colophon a:link, #portal-colophon a:visited {
+  color: #a0a0a0;
+}
+
+#portal-colophon a:hover, #portal-colophon a:visited:hover {
+  color: #001e3d;
+}
+
+#portal-footer {
+  text-align: center;
+  background: #f2f2f2;
+  font-size: 100%;
+  margin: 1em 10px;
+  min-height: 50px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* locations styling */
+
+.template-location_folder_view h2.gray {
+  background: url("++resource++deaf.theme.images/page-divider-1-column-gray-wide.png") no-repeat scroll left 25px transparent;
+  margin-bottom: 0;
+}
+
+.template-location_folder_view .medium-thumbnail {
+  background: none;
+}
+
+.template-location_folder_view .medium-thumbnail h3 {
+  margin-top: 0;
+}
+
+.template-location_folder_view div.medium-thumbnail {
+  background: url("++resource++deaf.theme.images/page-divider-1-column-gray-wide.png") no-repeat scroll left bottom transparent;
+  padding-bottom: 24px;
+  min-height: 200px;
+}
+
+.template-location_folder_view div.medium-thumbnail h4 {
+  margin-top: 20px;
+}
+
+.template-location_folder_view div.medium-thumbnail div.location-description {
+  width: 460px;
+  float: left;
+  clear: left;
+}
+
+.template-location_folder_view div.medium-thumbnail div.location-image {
+  float: right;
+  clear: right;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.template-location_folder_view div.medium-thumbnail figure {
+  width: 160px;
+  height: 160px;
+}
+
+/* portlets */
+
+dl.portlet {
+    font-size: 100%;
+}
+
+dl.portlet dt {
+  padding: 0.42em 0;
+}
+dl.portlet dt, div.portletAssignments div.portletHeader {
+  background: none;
+}
+
+dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
+    padding: 1em 0;
+}
+
+.portletItemDetails {
+  margin-left: 0;
+}
+
+dl.portlet a:link {
+    border-bottom: none;
+    color: #808080;
+}
+
+/* overwrite public.css */
+
+dl.portlet a:hover {
+  color: #223D5A !important;
+}
+
+#category {
+  clear: both;
+}
+
+/* pullquote */
+
+#content .pullquote {
+  font-size: 17px;
+  color: #E40079;/* pink */
+  text-transform: uppercase;
+  font-family:  "Stratum Medium", Arial;
+  font-weight: normal;
+  line-height: 18px;
+  width: 184px;
+  margin-left: 24px;
+}
+
+/* related */
+
+#content div.page-tabs {
+  background: none repeat scroll 0 0 #FFFFFF;
+  clear: both;
+  float: right;
+  position: relative;
+  width: 100%;
+}
+
+#content div.page-related {
+  margin-top: 24px;
+}
+
+#content div.page-tabs h2 {
+  color: #818181;
+  margin-bottom: 0;
+}
+
+#content div.page-tabs dl {
+  background: #f2f2f2;
+  margin-bottom: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#content div.page-tabs dt {
+  font-weight: normal;
+  margin-bottom: 5px;
+  padding: 10px;
+  padding-left: 185px;
+  background: #f2f2f2 url("++resource++deaf.theme.images/background-plus.png") no-repeat 10px 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#content div.page-tabs dt:hover {
+  cursor: pointer;
+}
+
+#content div.page-tabs dt.current {
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#content .page-tabs dd {
+  display: none;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-bottom: 20px solid #f2f2f2;
+}
+
+#content .page-tabs ul li {
+  background: #fff;
+  padding: 10px;
+  height: 15px;
+  margin-bottom: 3px;
+}
+
+#content .page-tabs ul li a, #content .page-tabs ul li a:link,
+#content .page-tabs ul li a:visited, #content .page-tabs ul li a:hover {
+  color: #001e3d;/* dark blue */
+  border: none !important;
+}
+
+/* sitemap */
+
+#content ul#portal-sitemap {
+  font-size: 15px;
+}
+
+/* edit interface styling */
+
+dl.portalMessage {
+    margin: -22px 0 1em;
+}
+
+dl.portalMessage dt {
+    padding: 0.1em;
+}
+
+#edit-bar, #edit-bar dt {
+    font-size: 100%;
+}
+
+#edit-bar {
+    margin-top: -23px;
+}
+
+/* artist person overview */
+
+.template-person_folder_view h2 {
+  font-size: 21px;
+  color: #808080;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  font-family: "Stratum Medium", Arial;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+div.person-thumbnail, div.event-thumbnail2 {
+  height: 240px;/* +10px+10px padding */
+  width: 146px;
+  background: url("++resource++deaf.theme.images/page-divider-1-column-gray-small.png") no-repeat top left;
+  float: left;
+  margin-right: 18px;
+  padding: 10px;
+  padding-left: 0;
+}
+
+div.person-thumbnail figure, div.event-thumbnail2 figure {
+  height: 160px;
+  width: 160px;
+  position: relative;
+  background: #eee;
+  text-align: center;
+  overflow: hidden;
+}
+
+div.person-thumbnail figure img.lead-image, div.event-thumbnail2 figure img.lead-image {
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+}
+
+div.person-thumbnail figure img.thumbnail-watermark, div.event-thumbnail2 figure img.thumbnail-watermark {
+  position: absolute;
+  top: 0;
+  left:0;
+}
+
+.template-person_folder_view figure a {
+  opacity: 0.85;
+}
+
+/* artist person detail view */
+
+.template-person_view .person-content h2 {
+  font-size: 21px;
+  color: #001D3C;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  font-family: "Stratum Medium", Arial;
+  font-weight: normal;
+  line-height: 24px;
+  height: 48px;
+}
+
+.template-person_view .person-description {
+  display: none;/* we hide the description in the view but show it in the viewlet on the left */
+}
+
+.template-person_view figure img {
+  width: 100%;
+}
+
+.template-person_folder_view figure a:hover {
+  opacity: 1;
+}
+
+#content a.all-persons {
+  display: block;
+  border: 1px solid #808080 !important;
+  padding: 0 5px;
+  float: left;
+  color: #E40079;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+div.batchNav {
+  margin-bottom: 24px;
+}
+
+/* various styling */
+
+div.listingBar {
+    display: none;
+}
+
+/* pratical info */
+
+.section-practial_info #content img {
+  margin: 0 1em 0.5em 0;
+}
+
+/* tickets */
+
+.section-tickets h2 {
+  height: 48px;
+}
+
+.section-tickets table {
+  font-size: 11px;
+  width: 530px;
+}
+
+.section-tickets table h3 {
+  font-size: 17px;
+  color: #E40079;/* pink */
+  line-height: 18px;
+}
+
+.section-tickets p.document-description {
+  display: none;
+}
+
+/* temporary disable the filter box */
+
+#content div.events-filter.page-tabs {
+  display: none;
+}

@@ -1,0 +1,12 @@
+Changelog
+=========
+
+1.0 (unreleased)
+----------------
+
+- ...
+
+0.1 (2011/11/15)
+----------------
+
+- Initial release of the skin for the vitrine site.

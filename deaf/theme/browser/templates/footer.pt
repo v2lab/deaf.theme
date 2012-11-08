@@ -1,0 +1,11 @@
+<tal:portlet>
+  <div id="portal-footer" metal:define-macro="portal_footer"
+       i18n:domain="plone">
+    <tal:block
+       tal:define="footertext nocall:container/footer | nothing">
+      <div tal:content="structure footertext/getText | default">
+
+      </div>
+    </tal:block>
+  </div>
+</tal:portlet>
