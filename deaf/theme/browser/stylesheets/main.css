@@ -241,15 +241,15 @@ a#portal-logo, a:visited#portal-logo {
 /* global nav */
 
 #portal-navigation {
-  background: none;
-  left: 185px;
-  top: 65px;
-  position: absolute;
-  color: #818181;
-  font-family: "Stratum Medium", Arial;
-  font-weight: normal;
-  font-size: 21px;
-  min-width: 710px;
+    background: none;
+    left: 290px;
+    top: 258px;
+    position: absolute;
+    color: #818181;
+    font-family: "Stratum Medium", Arial;
+    font-weight: normal;
+    font-size: 21px;
+    min-width: 710px;
 }
 
 #portal-navigation .nav-level-1 {
