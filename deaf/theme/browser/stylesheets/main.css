@@ -262,8 +262,6 @@ a#portal-logo, a:visited#portal-logo {
   display: none;
   padding: 5px;
   margin-top: 3px;
-  border-top: 1px solid #ff268f;
-  /*background: url("++resource++deaf.theme.images/knot-pink.png") no-repeat -1px -5px;*/
   z-index: 9000;
 }
 
@@ -273,30 +271,25 @@ a#portal-logo, a:visited#portal-logo {
 }
 
 #portal-header #portal-navigation .nav-level-2 li {
-  background: url("++resource++deaf.theme.images/DropdownBG.png") no-repeat top left;
-  width: 90px;
-  height: 90px;
   float: left;
   padding: 0;
-  text-align: center;
   margin-right: 2px;
+  color: #818181;
+  font-family: "Stratum Medium", Arial;
+  font-weight: normal;
+  font-size: 21px;
 }
 
 #portal-header #portal-navigation .nav-level-2 li a {
   padding: 0;
-  width: 90px;
-  height: 90px;
   display: inline-block;
-  font-size: 12px;
-  line-height: 14px;
-  color: #FFD749;
+  background: url("++resource++deaf.theme.images/divider-navigation-gray.png") repeat-x left 31px;
 }
 
 #portal-header #portal-navigation .nav-level-2 li a:hover {
-  color: #001e3d;
 }
 
-portal-header #portal-navigation .nav-level-2 li#portaltab-festival-nieuws a {
+/* portal-header #portal-navigation .nav-level-2 li#portaltab-festival-nieuws a {
   background: url("++resource++deaf.theme.images/IconFestivalNews.png") no-repeat center 40px;
 }
 
@@ -337,7 +330,7 @@ margin-top: 4px;
 
 #portal-header #portal-navigation .nav-level-2 li#portaltab-about a {
   background: url("++resource++deaf.theme.images/IconAbout.png") no-repeat center 40px;
-}
+} */
 
 #portal-navigation li a,
 #portal-navigation li a:link,
