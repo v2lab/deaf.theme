@@ -273,7 +273,7 @@ a#portal-logo, a:visited#portal-logo {
 #portal-header #portal-navigation .nav-level-2 li {
   float: left;
   padding: 0;
-  margin-right: 2px;
+  margin-right: 20px;
   color: #818181;
   font-family: "Stratum Medium", Arial;
   font-weight: normal;
@@ -281,9 +281,10 @@ a#portal-logo, a:visited#portal-logo {
 }
 
 #portal-header #portal-navigation .nav-level-2 li a {
-  padding: 0;
+  padding: 3px;
   display: inline-block;
-  background: url("++resource++deaf.theme.images/divider-navigation-gray.png") repeat-x left 31px;
+  background: url("++resource++deaf.theme.images/divider-navigation-gray.png") repeat-x 0px 17px;
+  height: 30px;
 }
 
 #portal-header #portal-navigation .nav-level-2 li a:hover {
