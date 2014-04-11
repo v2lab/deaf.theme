@@ -277,7 +277,7 @@ a#portal-logo, a:visited#portal-logo {
   color: #818181;
   font-family: "Stratum Medium", Arial;
   font-weight: normal;
-  font-size: 21px;
+  font-size: 16px;
 }
 
 #portal-header #portal-navigation .nav-level-2 li a {
@@ -351,7 +351,12 @@ margin-top: 4px;
 #portal-navigation li.selected a,
 #portal-navigation li a:hover,
 #portal-navigation li.selected a:hover {
-  color: #011e3c;
+  color: #004792;
+}
+
+#portal-navigation li.nav-entry-2 a:hover
+{
+    color:#E40079;
 }
 
 /* list styling */
