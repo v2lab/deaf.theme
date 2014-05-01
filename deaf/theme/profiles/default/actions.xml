@@ -25,10 +25,10 @@
    <property name="visible">True</property>
   </object>
   <object name="organization" meta_type="CMF Action" i18n:domain="plone">
-   <property name="title" i18n:translate="">Organization</property>
+   <property name="title" i18n:translate="">Organisation</property>
    <property name="description" i18n:translate=""></property>
    <property
-      name="url_expr">string:${globals_view/navigationRootUrl}/organization</property>
+      name="url_expr">string:${globals_view/navigationRootUrl}/organisation</property>
    <property name="link_target"></property>
    <property name="icon_expr"></property>
    <property name="available_expr"></property>
